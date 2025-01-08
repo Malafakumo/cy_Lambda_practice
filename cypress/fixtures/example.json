@@ -1,0 +1,22 @@
+{
+  "inputFormSubmit" : "a[href*='/input-form-demo']", 
+  "nameField" : "#name",
+  "emaiField" : "[name = 'email']",
+  "passwordField" : "[name='password']",
+  "companyField" : "#company",
+  "websiteField" : "#websitename",
+  "countryOption" : "[name='country']",
+  "cityField" : "#inputCity",
+  "address1Field" : "#inputAddress1",
+  "address2Field" : "#inputAddress2",
+  "stateField" : "[placeholder='State']",
+  "zipcodeField" : "#inputZip",
+  "submitButton" : "#seleniumform>div:nth-child(6)>button",
+  "fileUploadButton": "a[href*='upload-file-demo']",
+  "chooseFile": "input[type='file']",
+  "downloadFile": "a[href*='generate-file-to-download-demo']",
+  "enterDataBox": "#textbox",
+  "generateButton": "#create",
+  "downloadButton": "#link-to-download"
+  
+}
