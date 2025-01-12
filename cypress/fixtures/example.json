@@ -17,6 +17,11 @@
   "downloadFile": "a[href*='generate-file-to-download-demo']",
   "enterDataBox": "#textbox",
   "generateButton": "#create",
-  "downloadButton": "#link-to-download"
+  "downloadButton": "#link-to-download",
+  "email": "input[type='email']",
+  "userName": "input[name='username']",
+  "password": "input[name='password']",
+  "confirmPassword": "input[name='confirm_password']",
+  "submit": "Submit"
   
 }

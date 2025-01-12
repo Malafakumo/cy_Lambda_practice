@@ -8,6 +8,7 @@ module.exports = defineConfig({
     },
     baseUrl: 'https://www.lambdatest.com/selenium-playground',
     chromeWebSecurity: false,
+    includeShadowDom: true,
     pageLoadTimeout: 80000,
     viewportHeight: 960,
     viewportWidth: 1520,
