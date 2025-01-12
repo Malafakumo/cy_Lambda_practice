@@ -34,3 +34,7 @@ Cypress.Commands.add("clickElements", function (element) {
 Cypress.Commands.add("insertValue", function (field, text) {
     cy.get(field).should("exist").type(text)
 })
+
+Cypress.Commands.add("shadowElements", function () {
+    cy.get('shadow-signup-form').shadow()
+})
