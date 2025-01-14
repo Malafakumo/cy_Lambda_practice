@@ -6,7 +6,7 @@ import './input-form'
 
 import './upload-download-file'
 
-import './shadow-dom'
+import './shadow-dom-iframe'
 
 beforeEach('', function () {
   Cypress.on('uncaught:exception', (err, runnable) => {

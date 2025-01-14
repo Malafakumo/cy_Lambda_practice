@@ -22,6 +22,7 @@
   "userName": "input[name='username']",
   "password": "input[name='password']",
   "confirmPassword": "input[name='confirm_password']",
-  "submit": "Submit"
+  "shadowDomButton": "a[href*='/shadow-dom']",
+  "iframeButton": "a[href*='/iframe-demo']"
   
 }
